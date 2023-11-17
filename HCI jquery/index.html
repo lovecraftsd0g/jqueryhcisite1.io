@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="jqquer.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                $('.a1').hide()
+                $('.a2').hide()
+                $('.a3').hide()
+                $('.a4').hide()
+                $('.haha').click(function(){
+                    $('.a2').show()
+                })
+                $('.hahaha').click(function(){
+                    $('.a3').show()
+                })
+                $('.hahahaha').click(function(){
+                    $('.a4').show()
+                })
+                $('.reset').click(function(){
+                    $('.a1').hide()
+                    $('.a2').hide()
+                    $('.a3').hide()
+                    $('.a4').hide()
+                })
+                });
+        </script>
+    </head>
+    <body>
+        <ul class="w3-ul">
+            <li class="ha"><img src="C:\Users\Patrick Kusmajadi\Desktop\HCI jquery\blackguy.png" alt=""></li>
+            <li class="haha"><h4>the second element</h4> <p2 class="a2">the content</p2></li>
+            <li class="hahaha"><h4>the third element</h4> <p2 class="a3">the content</p2></li>
+            <li class="hahahaha"><h4>the fourth element</h4> <p2 class="a4">the content</p2></li>
+        </ul>
+        <button class="reset">button</button>
+    </body>
+</html>
